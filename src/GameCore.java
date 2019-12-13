@@ -23,6 +23,7 @@ public class GameCore extends Canvas implements Runnable, KeyListener {
 	public static final int WIDTH = 960, HEIGHT = 800;
 	private Thread thread;
 
+	//set game state
 	public static enum STATE{
 		GAME,
 		MENU
